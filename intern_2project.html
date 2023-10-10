@@ -1,58 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Doc</title>
-    <script src="index.js"></script>
-  </head>
-  <body>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-    <div class="container-fluid bg-primary">
-      <div class="container">
-        <div class="row">
-            <div class="col-lg-8 my-2"><img style="height: 4rem ;width: 4rem;" src="onion.png" alt="error"></div>
-          <div id="demo1" class="col-lg-1 my-2 py-3 ps-3.5 fw-bold nav">Home</div>
-          <div id="demo1" class="col-lg-1 my-2 py-3 ps-3.5 fw-bold nav">About us</div>
-          <div id="demo1" class="col-lg-1 my-2 py-3 ps-3.5 fw-bold nav">Contact us</div>
-          <div id="demo1" class="col-lg-1 my-2 py-3 ps-3.5 fw-bold nav">Login</div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid bg-dark">
-        <div class="container">
-            <div class="row" style="height: 50rem; width: 100%;">
-                <div class="col-lg-5 my-5 py-5">
-                    <h3 class="text-white">Install via package manager</h3>
-                    <div class="text-white-50 fw-normal">
-                        Install Bootstrap's source Saas and Javascript files via npm, RubyGems, Composer, 
-                        or Meteor. Package managed installs don’t include documentation or our full build 
-                        scripts. You can also <a href="www.google.com"> use any demo from our Examples repo</a> to quickly jumpstart 
-                        Bootstrap projects.
-                        
-                    </div>
-                    <div class=" bg-secondary my-4 box1" style="height: 8rem; width: 100%"></div>
-                    <div class=" bg-secondary my-4 box1" style="height: 8rem; width: 100%"></div>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KAUSTUBH</title>
+    <link rel="stylesheet" href="project2.css" />
+    <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Kaustubh.</div>
+            <div class="right">
+                <ul>
+                    <li><a style="background-color: rgb(135, 197, 252);" href="/">Home</a></li>
+                    <li><a style="background-color: rgb(135, 197, 252);" href="/">Qualification</a></li>
+                    <li><a style="background-color: rgb(135, 197, 252);" href="/">Skills</a></li>
+                    <li><a style="background-color: rgb(135, 197, 252);" href="/">Projects</a></li>
+                    <li><a style="background-color: rgb(135, 197, 252);" href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, my name is <span class="purple">Kaustubh</span>
+                <div>and, I am a passionate </div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="project2png.png" alt="">
+            </div>
+        </section>
+        <hr>
+
+        <!-- ******************** QUALIFICATION ************************ -->
+        
+        <section class="secondsection">
+            <h1> <img style="height: 22px; width: 25px;" src="do1.png"> Qualification</h1>
+            <div class="education">
+                <table>
+                    <tr>
+                        <th>B.Tech (2021 - current)</th>
+                        <td><a style="text-decoration: none;" href="https://rmlau.ac.in/new/index.aspx"><b>Dr. Ram Manohar Lohia Awadh University, Ayodhya</b></a>
+                            <br>Pursuing B.tech in Information Technology
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Diploma (2019 - 2022) <br> 
+                            Grade :- 79% <br>
+                            Board :- BTEUP</th>
+                        <td><a style="text-decoration: none;" href=""><b>Mahamaya Polytechnic of Information Technology, Sant Kabir Nagar</b></a><br>
+                        Completed diploma in Computer Science and Engineering from BteUp Board.<br><br>
+                    Activities:- Badminton (Played in Semi-final)</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <!-- ------------------SKILL========================== -->
+
+        <section class="thirdsection">
+            <div class="box"></div>
+                <h1> <img style="height: 25px; width: 25px;" src="skill1.png"> Skills</h1>
+            <div class="skill">
+                <ul>
+                    <li>HTML :
+                        <div class="html"></div>
+                    </li>
+                    <li>CSS :
+                        <div class="css"></div>
+                    </li>
+                    <li>JavaScript :
+                        <div class="js"></div>
+                    </li>
+                    <li>MySql :
+                        <div class="sql"></div>
+                    </li>
+                    <li>PHP :
+                        <div class="php"></div>
+                    </li>
+                    <li>BOOTSTRAP :
+                        <div class="bootstrap"></div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- >>>>>>>>>>>>>>>>>> PROJECTS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+        <section class="fourthsection">
+            <div class="box1"></div>
+                <h1><img style="height: 33px; width: 33px;" src="project.png" alt="Project">Projects</h1>
+            <div class="project">
+                <div style="box-shadow: 5px 5px 5px whitesmoke, 5px 5px 5px whitesmoke;" class="pr1">
+                    <img style="border-radius: 20px; width: 500px; height: 300px;" src= "Grocery.png" alt="Grocery Website">
                 </div>
-                <div class="vl col-lg-1 my-5 mx-5 bg-primary" style="width: 1px;"></div>
-                <div class="col-lg-5 my-5 py-5 mx-4">
-                    <h3 class="text-white">Include via CDN</h3>
+                <div class="prbody">
+                    <h1>1) Grocery Website</h1><br>
+                    This is my first project which i have completed through html, css and javascript and small portion of Bootstrap documentation. This is fully frontend based project.<br><br>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
                 </div>
             </div>
+            <div class="project">
+                <div style="box-shadow: 5px 5px 5px black, 5px 5px 5px black, 5px 5px 5px black;; " class="pr1">
+                    <img style="border-radius: 20px; width: 500px; height: 300px;" src= "spotify.png" alt="Grocery Website">
+                </div>
+                <div class="prbody">
+                    <h1>2) Spotify Clone</h1><br>
+                    This is my second project which i have completed through html, css and javascript it is very similar to spotify music app.<br><br>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="box2"></div>
+
+        <!-- ____________________________ CONTACT ________________________ -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><a style="font-size: 15px; text-decoration: none;" href="kaustubhrai9125@gmail.com"><img style="width: 20px;" src="mail.png" alt=""> kaustubhrai9125@gmail.com</a></p>
+                        <p style="font-size: 15px;"><img style="font-size: 15px; width: 10px;" src="phone.svg" alt="">+91-9125218253</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/_kaustubh_rai?igshid=MzNlNGNkZWQ4Mg=="><img src="insta.png" alt=""></a>
+                            <a href="https://github.com/Kaustubhraidev"><img src="chotagit.png" alt=""></a>
+                            <a href="https://www.linkedin.com/in/kaustubh-dev-rai"><img src="chotalink.png" alt=""></a>
+                        </div>
+                        <a href="Resume.pdf" download class="btn">Download CV</a>    
+                    </div>
+                    <div class="contact-right">
+                        <form action="">
+                            <input style="background-color: black;" type="text" name="Name" placeholder="Your Name please" required> 
+                            <input style="background-color: black;" type="text" name="email" placeholder="Your Email please" required>
+                            <textarea style="background-color: black;" name="Message" rows="5" placeholder="Your Message"></textarea>
+                            <button type="button" class="btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Kaustubh. Made by me</p>
+            </div>
         </div>
-    </div>
-    <!-- We offering for all
-    1- corporate
-mass photography solution . let us handle the chaos
-talk to us <-- butttom
-2- photographers
-get jobs , get recognition . join the fleet today
-join us
-3- Travel agents
-sell with holiday packages . add value to your offerings
-sell with us  -->
-  </body>
+        
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Student .'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+
 </html>
